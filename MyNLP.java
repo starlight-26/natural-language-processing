@@ -111,11 +111,13 @@ public class MyNLP {
     ArrayList<String> wordList = new ArrayList<String>();
     
     for (int i = 0; i < list.size(); i++) {
+      // Turns the element being checked into an array of characters
       char[] cArray = list.get(i).toCharArray();
       String word = "";
 
       for (int j = 0; j < cArray.length; j++) {
         Character temp = cArray[j];
+        // Gets the numeric value of the character
         int value = temp.getNumericValue(temp);
 
         if (value > 0) {
