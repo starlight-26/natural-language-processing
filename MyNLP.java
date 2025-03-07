@@ -126,7 +126,6 @@ public class MyNLP {
       }
 
       wordList.add(word);
-      word = "";
     }
 
     return wordList;
