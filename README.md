@@ -32,8 +32,8 @@ Record a short video of your project to display here on your README. You can do 
 
 ## Project Description
 
-Write a description of the goal and/or problem that your application. Include descriptions of what text is being analyzed, either if its text files you are using to interpret text an how the user interacts with your project.
+My application was created to check for spelling errors in text. The user inputs the text to be analyzed. The program will then output the words that are misspelled into the console. If there are no misspelled words, it will just print out "No misspelled words".
 
 ## NLP Techniques
 
-Write a description of what natural lanugage technique (NLP) you implemented in your project. State which methods in your project are associated with this, and a brief explanation of how those methods word and how they are necessary in the NLP technique. 
+In this project, I implemented natural language processing techniques to parse the text. This means that the text was broken up into individual words which allowed me to analyze it for spelling errors. I used the textToWords() method to break up the text and the removePunctuation() method to only store the letters. These methods let me check each word in the text with the words in the text file.
